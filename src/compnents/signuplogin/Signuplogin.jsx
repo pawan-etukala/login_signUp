@@ -13,7 +13,7 @@ const[action,setAction]= useState("login");
       <div className="inputs">
         {action==="login"?<div></div>:<div className="input">
           <img className="icons" src={signup_icon} />
-          <input type="text" placeholder="Username" />
+          <input type="text" placeholder="Username Enter" />
         </div>} 
         <div className="input">
           <img src={signuplogo} className="icons" />
